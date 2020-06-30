@@ -167,7 +167,7 @@ $('.responsive').on('click', function (e) {
     if ($('.element').length) {
         $('.element').each(function () {
             $(this).typed({
-                strings: ['Dont take life seriously', 'I am no one', 'No worry'],
+                strings: ['Hi,', 'I am Arnav', 'Thanks for coming'],
                 loop: true,
                 backDelay: 2000,
                 typeSpeed: 10,
