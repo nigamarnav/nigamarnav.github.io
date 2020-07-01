@@ -1395,7 +1395,7 @@ ul.tl li .timestamp{
 
 .parallax {
   /* The image used */
-  background-image: url("../images/quote-background.jpeg");
+  background-image: url("../images/quote-background.jpg");
 
   /* Set a specific height */
   height: 500px;
