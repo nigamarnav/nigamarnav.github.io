@@ -167,7 +167,7 @@ $('.responsive').on('click', function (e) {
     if ($('.element').length) {
         $('.element').each(function () {
             $(this).typed({
-                strings: ['Hello', 'नमस्ते', 'হ্যালো', 'નમસ્તે', 'வணக்கம்', 'ಹಲೋ'],
+                strings: ['Hello', 'I design', 'Think', 'Ideate', 'Create'],
                 loop: true,
                 backDelay: 2000,
                 typeSpeed: 10,
