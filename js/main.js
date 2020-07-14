@@ -167,7 +167,7 @@ $('.responsive').on('click', function (e) {
     if ($('.element').length) {
         $('.element').each(function () {
             $(this).typed({
-                strings: ['I Think, Ideate, design and Create'],
+                strings: ['I think, ideate, design and create'],
                 loop: true,
                 backDelay: 2000,
                 typeSpeed: 10,
