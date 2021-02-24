@@ -77,14 +77,14 @@ nav ul li a:hover{
 
 
 footer{
-    background: #f2f2f2;
+    background: #f2f5f7;
     padding: 40px 0;
     margin-top:10px;
     text-align: center;
 }
 
 footer .social a{
-    color: #000;
+    color: #748182;
     font-size: 15px;
     margin: 0 20px;
     transition: all ease 0.3s;
@@ -440,8 +440,8 @@ footer .social a{
 .diag .contact .contact-info li{
     line-height: 36px;
     font-size: 20px;
-    color: #000;
-    text-align: center;
+    color: #748182;
+    text-align: left;
     list-style: none;
 }
 
@@ -558,7 +558,7 @@ footer .social a{
 }
 
 .about{
-    padding-top:90px;
+    padding-top:60px;
  }
 
 .diag .about{
@@ -989,7 +989,7 @@ a.site-button{
     }
 
     .social a{
-        margin: 0 30px;
+        margin: 0 50px;
         font-size: 12px;
     }
 
