@@ -25,13 +25,17 @@ body{
 	font-family: 'Avenirnext', sans-serif;
 }
 
+.bg-image{
+	background: url("../images/Bg-flowers-trans.png");
+}
+
 html{
 	height: 100%;
 }
 
 nav{
     position: fixed;
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, .9);
     z-index: 1000;
     width: 100%;
     padding: 15px;
@@ -414,7 +418,7 @@ footer .social a{
 .diag p{
     font-size: 20px;
     font-weight: 300;
-    color: #748182;
+    color: #4b5354;
     line-height: 36px;
 }
 
@@ -1111,6 +1115,7 @@ a.site-button{
 .project-card {
     margin-top: 24px;
     padding: 24px;
+	background-color: #fff
 }
 
 .project-logo {
