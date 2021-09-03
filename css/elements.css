@@ -193,7 +193,7 @@ ul.main-nav li a:hover, ul.main-nav li a.active, ul.main-nav li a:active, ul.mai
 }
 
 .grid-images .item-sizer {
-  width: 33.34%;
+  width: 50%;	/* 33.34% (1/3) For compact grid*/
 }
 
 @media screen and (max-width: 992px) {
@@ -209,10 +209,10 @@ ul.main-nav li a:hover, ul.main-nav li a.active, ul.main-nav li a:active, ul.mai
 }
 
 .grid-images a.item {
-  width: 33.34%;
+  width: 40%;	/* 33.34% (2/3) */
   background-size: cover;
   background-position: center center;
-  margin: 0;
+  margin: 5%;  /* 0 (3/3) */
   padding: 0;
   display: block;
   color: #000;
@@ -220,14 +220,32 @@ ul.main-nav li a:hover, ul.main-nav li a.active, ul.main-nav li a:active, ul.mai
 }
 
 .grid-images a.item .caption {
-  position: absolute;
-  bottom: 0;
-  left: 0;
+  display: none;
 }
 
 .grid-images a.item .caption h4 {
   font-size: 1.5em;
-  margin: 20px 25px;
+  text-align: center;
+  /*margin: 0px 25px;*/
+}
+
+.grid-images a.item .caption h6 {
+  font-size: 1.2em;
+  text-align: center;
+  /*margin: 20px 25px;*/
+}
+
+.grid-images a.item:hover .caption{
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(243, 243, 243, 0.9);
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
 }
 
 .grid-images a.item:before {
